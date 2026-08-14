@@ -1,0 +1,28 @@
+.round-2-page { background: #e7e6e1; }
+.round-2-page .preview-header { background: #0f1010; }
+.round-2-page .comparison-card.r2-c::after { background: linear-gradient(transparent, rgba(0,26,78,.82)); }
+.round-2-page .comparison-card.r2-a::after,
+.round-2-page .comparison-card.r2-b::after { background: linear-gradient(transparent, rgba(20,18,15,.72)); }
+
+.hero-r2-a .hero-copy { color: #232321; }
+.hero-r2-a .hero-copy p { color: #a53827; }
+.hero-r2-a .hero-copy button { color: #fff; background: #b6412e; border-radius: 1px; }
+
+.hero-r2-b .hero-copy { color: #26323b; }
+.hero-r2-b .hero-copy p { color: #173b66; }
+.hero-r2-b .hero-copy button { color: #fff; background: #173b66; border-radius: 1px; }
+
+.hero-r2-c::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(0,43,121,.72), transparent 58%); }
+.hero-r2-c .hero-copy { color: #fff; }
+.hero-r2-c .hero-copy p { color: #ceef32; }
+.hero-r2-c .hero-copy button { color: #083d91; background: #ceef32; border-radius: 999px; }
+
+.hero-r2-d .hero-copy { color: #f3eee4; }
+.hero-r2-d .hero-copy p { color: #d58a2c; }
+.hero-r2-d .hero-copy button { color: #11120f; background: #d58a2c; border-radius: 1px; }
+
+.round-2-page .mobile-device .hero-r2-a > img { object-position: 72% center; }
+.round-2-page .mobile-device .hero-r2-b > img { object-position: 66% center; }
+.round-2-page .mobile-device .hero-r2-c > img { object-position: 70% center; }
+.round-2-page .mobile-device .hero-r2-d > img { object-position: 70% center; }
+.round-2-page footer a { color: #fff; }

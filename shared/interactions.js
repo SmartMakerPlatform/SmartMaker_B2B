@@ -1,0 +1,2 @@
+document.querySelectorAll('.schedule-list').forEach((list)=>list.addEventListener('click',(event)=>{const button=event.target.closest('button');if(!button)return;list.querySelectorAll('button').forEach((item)=>item.classList.remove('selected'));button.classList.add('selected')}));
+document.querySelectorAll('.payment-options').forEach((list)=>list.addEventListener('click',(event)=>{const button=event.target.closest('button');if(!button)return;list.querySelectorAll('button').forEach((item)=>item.classList.remove('selected'));button.classList.add('selected')}));
